@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "707255123354",
+    "project_id": "thevendorapplication",
+    "storage_bucket": "thevendorapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707255123354:android:e4623e8b56b3e87dcece23",
+        "android_client_info": {
+          "package_name": "com.settasit.saimai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707255123354-i3o9f84ffi6ff1cs0mracc85vu2af4qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2hEVw4vmWbB9K9m9AYpNYqqnUGV8X7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707255123354-i3o9f84ffi6ff1cs0mracc85vu2af4qb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "707255123354-pm5amt05t5hvo8gspg0olbiv0l2jk4ih.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.settasit.saimai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
