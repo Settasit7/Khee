@@ -99,8 +99,9 @@ android {
         applicationId "com.settasit.saimai"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 13
-        versionName "8.0"
+        versionCode 44
+        versionName "18"
+        multiDexEnabled = true
     }
 
     splits {
@@ -155,6 +156,10 @@ android {
 
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -176,6 +181,15 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    //implementation fileTree(include: ['AnyManagerSDK_v3.0.0.aar'], dir:'libs')
+    implementation 'com.google.android.gms:play-services-base:18.1.0'
+    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

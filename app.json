@@ -1,4 +1,8 @@
 {
   "name": "Saimai",
-  "displayName": "Saimai"
+  "displayName": "Saimai",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-8757434016538668~5419962303",
+    "ios_app_id": "ca-app-pub-8757434016538668~7593707882"
+  }
 }

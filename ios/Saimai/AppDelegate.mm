@@ -12,7 +12,7 @@
   if ([FIRApp defaultApp] == nil) {
     [FIRApp configure];
   }
-  [GMSServices provideAPIKey:@"AIzaSyAAYA3HnVG6ftorSmO-HxIs8XRPGWP7Ba0"];
+  [GMSServices provideAPIKey:@"AIzaSyBkbqSpy2yawEnytcPlZ8xQqUNVQ5jVWTY"];
   self.moduleName = @"Saimai";
 
   self.initialProps = @{};
