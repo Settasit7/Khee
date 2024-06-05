@@ -82,7 +82,7 @@ const Guest = () => {
   }, [])
   const handlePlaceSelect = details => {
     const placeId = details.place_id
-    fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key=AIzaSyAAYA3HnVG6ftorSmO-HxIs8XRPGWP7Ba0`)
+    fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key=[key]`)
       .then(response => response.json())
       .then(data => {
         setScreenCoordinate({ lat: data.result.geometry.location.lat, lng: data.result.geometry.location.lng })
@@ -185,7 +185,7 @@ const Guest = () => {
           }}
             placeholder='Search'
             query={{
-              key: 'AIzaSyAAYA3HnVG6ftorSmO-HxIs8XRPGWP7Ba0',
+              key: '[key]',
               language: 'en'
             }}
             onPress={details => handlePlaceSelect(details)}

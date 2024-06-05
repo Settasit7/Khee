@@ -27,7 +27,7 @@
       </activity>
       <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBkbqSpy2yawEnytcPlZ8xQqUNVQ5jVWTY"/>
+        android:value="[key]"/>
       <meta-data
         android:name="applovin.sdk.key"
         android:value="DSyG4d2vgVLIVPHX7m4P25tWLVOu_ah_FV-4JPPv7J1K3LtK-7rzccbqQq04CTAacv-Sufl31buqLAhEmhsQ8w"/>
